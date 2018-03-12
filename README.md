@@ -16,6 +16,7 @@ Pattern Overview
 Using the patterns requires a little research in the target html, looking for names, classes or other locator that the driver patterns can use.
 
 |Strategy   |	Used	                               |Description
+| --- | --- | ---
 |Direct	    | A few objects can be accessed by     | Login screens usually have 3-5 UI objects available
 |           | a locator per object	               | and are suitable for a |direct strategy approach.
 |Group      |	A number of objects, like buttons    | Group extracts all objects matching a particular type.
